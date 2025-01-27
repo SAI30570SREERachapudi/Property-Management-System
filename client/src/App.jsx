@@ -7,9 +7,14 @@ import Tenants from './components/Tenants';
 function App() {
   return (
     <Router>
+      {/* Navbar remains intact on all pages */}
       <Home1 />
+
+      {/* This will render different content based on the route */}
       <Routes>
-        <Route path="/" element={<h1>Welcome to Home Page</h1>} />
+        <Route path="/" element={<h1>Wsjd
+          
+        </h1>} />
         <Route path="/tenants" element={<Tenants />} />
         <Route path="/contact" element={<h1>Contact Page</h1>} />
         <Route path="/feedback" element={<h1>Feedback Page</h1>} />
