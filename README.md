@@ -4,3 +4,8 @@ A property management system helps landlords and property managers handle listin
 and tenant information. Users can post property details, track rental payments, and manage 
 leases. It streamlines communication between property owners and tenants while improving 
 operational efficiency
+
+
+Dark white mode
+typing effect
+

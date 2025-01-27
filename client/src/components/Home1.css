@@ -1,0 +1,47 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .NavBar {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .NavList {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .NavList li {
+    margin: 0 15px;
+  }
+  
+  .NavList a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .NavList a:hover {
+    color: #00bcd4;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .NavList {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .NavList li {
+      margin: 10px 0;
+    }
+  }
+  
