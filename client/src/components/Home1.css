@@ -1,4 +1,4 @@
-/* General Styling */
+
 body {
   margin: 0;
   padding: 0%;
@@ -8,14 +8,12 @@ body {
   width: 100%;
 }
 
-/* Navbar Common Styling */
 .NavBar {
   padding: 10px 20px;
   overflow: hidden;
   box-shadow: white 0px 6px 6px -2px, white 0px 3px 3px -3px;
 }
 
-/* NavList Styling */
 .NavList {
   list-style: none;
   display: flex;
@@ -46,15 +44,12 @@ body {
 .NavList li a {
   transition: box-shadow 1.6s ease-in-out; 
 }
-
-/* Navbar with black background (default) */
 .BlackBackground {
   background-color: black;
   padding: 10px 20px;
   box-shadow: white 0px 6px 6px -2px, white 0px 3px 3px -3px;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
   .NavList {
     flex-direction: column;

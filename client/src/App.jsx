@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home1 from "./components/Home1";
 import Tenants from "./components/Tenants";
+import HomePage from "./components/HomePage";
 
 function App() {
   return (
@@ -12,22 +13,7 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={
-            <div
-              className="HomePage1"
-              style={{ display: "flex", padding: "20px" }}
-            >
-              <h5 style={{ textAlign: "left", color: "white" }}>
-                Whether you're a property owner, a tenant, or looking for expert
-                advice, we're here to help. Our team is dedicated experience for
-                both property owners and residents.
-              </h5>    <img
-                src="./../public/images/gif1.gif"
-                alt="Home Page GIF"
-                style={{ width: "30%", height: "auto", marginBottom: "20px" }}
-              />
-            </div>
-          }
+          element={<HomePage/> }
         />
         <Route path="/Tenants" element={<Tenants />} />
         <Route
