@@ -87,8 +87,8 @@ export default function HomePage() {
 <footer class="footer">
   <div class="footer-content">
     <div class="footer-info">
-      <p class="footer-text">© 2025, Andhra Realty. All rights reserved.</p>
-      <p class="footer-text">Developed and Managed by WeblinkIndia.NET</p>
+      <p class="footer-text">© 2025, PropertyPro All rights reserved.</p>
+      <p class="footer-text">Developed and Managed in react,spring boot</p>
     </div>
     <div class="footer-links">
       <h4>Quick Links</h4>
