@@ -8,8 +8,8 @@ const Home1 = () => {
       <nav className="BlackBackground">
         <ul className="NavList">
           <img 
-            src="./../../public/images/home.png" 
-            width="20vh" 
+            src="./../../public/images/logo124.jpeg" 
+            width="190vh" 
             alt="logo" 
           />
           <li><Link to="/">Home</Link></li>

@@ -2,12 +2,11 @@
 body {
     background-color: #1a1a1a;
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
   }
   
-  /* HomePage Section */
   .HomePage1 {
     display: flex;
     justify-content: space-between;
@@ -43,7 +42,6 @@ body {
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.7);
   }
   
-  /* Achievements Section */
   .Our_Achievements {
     text-align: center;
     margin: 60px 20px;
@@ -52,7 +50,7 @@ body {
   .Our_Achievements h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: rgb(213, 213, 255);
+    color: #aaa;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   }
   
@@ -97,7 +95,6 @@ body {
     color: #1a1a1a;
   }
   
-  /* Responsive Design */
   @media (max-width: 768px) {
     .HomePage1 {
       flex-direction: column;
@@ -115,8 +112,7 @@ body {
       align-items: center;
     }
   }
-  
-  /* Styling for Cards or Sections */
+
   .card {
     background-color: #1e1e1e;
     color: #fff;
@@ -156,7 +152,8 @@ body {
   .WhyOurCompany h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color:rgb(213, 213, 255);
+    color: #aaa;
+    
     text-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.7);
   }
   
@@ -199,8 +196,6 @@ body {
   .InfoItem:hover p {
     color: #1a1a1a;
   }
-  
-  /* Responsive Design */
   @media (max-width: 768px) {
     .WhyOurCompany {
       margin: 40px 20px;
@@ -216,109 +211,106 @@ body {
       margin-bottom: 20px;
     }
   }
-  
-  /* Footer Section Styling */
-.footer {
-    background-color: #2c2c2c;
-    color: white;
-    padding: 0;
-    text-align: center;
-    margin-top: 60px;
-    border-top: 2px solid #444;
-  }
-  
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .footer-info {
-    flex: 1;
-    text-align: left;
-  }
-  
-  .footer-info .footer-text {
-    font-size: 1rem;
-    color: #cccccc;
 
-  }
+.footer {
+  background-color: #111;
+  color: #ddd;
+  /* padding: 40px 20px; */
+  text-align: center;
+  /* border: 2px solid red; */
+  /* box-shadow: white 0px -50px 36px -28px inset; */
+}
+
+.footer-container {
+  display: flex;
+  /* border: 2px solid red; */
+  border-top:2px solid white ;
+  align-items: center;
+
+  margin: auto;
+}
+
+.footer-info {
   
-  .footer-links {
-    flex: 1;
-  }
+  flex: 1;
+  text-align: left;
+}
+
+.footer-info p {
+  /* margin: 5px 0; */
+  font-size: 14px;
+}
+
+.footer-links {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-links h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  /* margin: 5px 0; */
+}
+
+.footer-links ul li a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links ul li a:hover {
+  color: white
+}
+
+.footer-stats {
+  flex: 1;
+
+}
+
+.stat {
+  /* background: #222; */
+  padding: px;
+  border-radius: 10px;
   
-  .footer-links h4 {
-    font-size: 1.5rem;
-    color: #00ffcc;
+  text-align: left;
+  margin-left: 10px;
  
-  }
-  
-  .footer-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .footer-links ul li {
-    margin-bottom: 10px;
-  }
-  
-  .footer-links ul li a {
-    color: #cccccc;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: color 0.3s ease;
-  }
-  
-  .footer-links ul li a:hover {
-  color:  rgb(213, 213, 255);
-  }
-  
-  .footer-stats {
-    flex: 1;
-    text-align: right;
-  }
-  
-  .footer-stats .stat {
-    background-color: #1a1a1a;
-  
-    margin-bottom: 20px;
-    border-radius: 10px;
-    width: 200px;
-    display: inline-block;
-  }
-  
-  .footer-stats .stat h3 {
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-  }
-  
-  .footer-stats .stat p {
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgb(213, 213, 255);
-    margin: 0;
-  }
-  
-  @media (max-width: 768px) {
-    .footer-content {
+  transition: transform 0s ease, box-shadow 0s ease;
+}
+
+/* .stat:hover {
+  transform: scale(1.05);
+} */
+
+.stat h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: white;
+}
+
+.stat p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
       flex-direction: column;
-      align-items: center;
       text-align: center;
-    }
-  
-    .footer-stats {
-      margin-top: 20px;
-    }
-  
-    .footer-stats .stat {
-      width: 100%;
-      margin-bottom: 20px;
-    }
   }
-  
+
+  .footer-info, .footer-links, .footer-stats {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+}
