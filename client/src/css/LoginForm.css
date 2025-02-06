@@ -2,13 +2,13 @@
 .login-form {
   background: #0a0a0a; /* Very dark background */
   border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6); /* Deep shadow */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6); 
   padding: 40px 50px;
   width: 100%;
   max-width: 400px;
-  color: #e0e0e0; /* Light text color */
+  color: #e0e0e0; 
   text-align: center;
-  animation: fadeInUp 0.8s ease-out; /* Animation for form */
+  animation: fadeInUp 0.8s ease-out; 
   margin: auto;
   margin-top: 8rem;
   height: 28rem;
@@ -32,7 +32,7 @@ h2 {
 .input-field label {
   font-size: 14px;
   color: #e0e0e0;
-  display: block; /* Ensures the label is displayed above the input field */
+  display: block; 
 
   margin-left: 2rem;
 }
@@ -59,19 +59,17 @@ h2 {
 .password-field {
   position: relative;
 }
-
 .eye-icon {
   position: absolute;
   top: 73%;
-  right: 25px; /* Adjusted for spacing */
+  right: 25px;
   transform: translateY(-50%);
   color: #1abc9c;
   font-size: 20px;
   cursor: pointer;
   transition: color 0.3s ease;
-  z-index: 10; /* Ensure it's above the input field */
+  z-index: 10; 
 }
-
 .login-button {
   background-color: #1abc9c;
   border: none;
