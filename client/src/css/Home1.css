@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0%;
@@ -42,7 +41,7 @@ body {
 }
 
 .NavList li a {
-  transition: box-shadow 1.6s ease-in-out; 
+  transition: box-shadow 1.6s ease-in-out;
 }
 .BlackBackground {
   background-color: black;

@@ -4,17 +4,14 @@ import "./App.css";
 import Home1 from "./components/Home1";
 import Tenants from "./components/Tenants";
 import HomePage from "./components/HomePage";
-
+import LoginForm from "./components/LoginForm";
 function App() {
   return (
     <Router>
       {" "}
       <Home1 />{" "}
       <Routes>
-        <Route
-          path="/"
-          element={<HomePage/> }
-        />
+        <Route path="/" element={<HomePage/> } />
         <Route path="/Tenants" element={<Tenants />} />
         <Route
           path="/contact"
@@ -26,7 +23,7 @@ function App() {
         />
         <Route
           path="/login"
-          element={<h1 style={{ color: "white" }}>Login Page</h1>}
+          element={<LoginForm/>}
         />
         <Route
           path="/register"

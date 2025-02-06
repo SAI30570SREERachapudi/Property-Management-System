@@ -1,17 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../css//Home1.css";
+import "../css/Home1.css";
 
 const Home1 = () => {
   return (
     <div>
       <nav className="BlackBackground">
         <ul className="NavList">
-          <img
-            src="./../../public/images/logo124.jpeg"
-            width="190vh"
-            alt="logo"
-          />
+          <img src="./../../public/images/home.png" width="20vh" alt="logo" />
           <li>
             <Link to="/">Home</Link>
           </li>
