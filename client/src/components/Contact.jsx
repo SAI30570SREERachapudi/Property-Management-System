@@ -83,9 +83,9 @@ const Contact = () => {
           <Card variant="outlined" style={{ height: '100%', boxShadow: '0 3px 10px rgba(0,0,0,0.1)', borderRadius: '8px', backgroundColor: '#333', color: 'white' }}>
             <CardContent>
               <Typography variant="h5">Emails</Typography>
-              <Typography variant="body2">2300030277@kluniversity.in</Typography>
-              <Typography variant="body2">2300030278@kluniversity.in</Typography>
               <Typography variant="body2">2300030244@kluniversity.in</Typography>
+              <Typography variant="body2">2300030570@kluniversity.in</Typography>
+              <Typography variant="body2">2300032747@kluniversity.in</Typography>
             </CardContent>
           </Card>
         </Grid>
