@@ -20,8 +20,8 @@ function App() {
           element={<h1 style={{ color: "white" }}>Contact Page</h1>}
         /> */}
         <Route
-          path="/feedback"
-          element={<h1 style={{ color: "white" }}>Feedback Page</h1>}
+          path="/about"
+          element={<h1 style={{ color: "white" }}>abput</h1>}
         />
         <Route
           path="/login"

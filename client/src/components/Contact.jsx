@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Card, CardContent, Typography, TextField, Button, Grid } from '@mui/material';
 import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
+import Footer from './Footer';
 
 const Contact = () => {
   const { register, handleSubmit, formState: { errors }, reset } = useForm();
@@ -178,6 +179,7 @@ const Contact = () => {
           </Typography>
         )}
       </div>
+      <Footer/>
     </div>
   );
 };

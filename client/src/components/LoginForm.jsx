@@ -1,6 +1,7 @@
 import "../css/LoginForm.css";
 import React, { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa"; // Importing the eye icons
+import Footer from "./Footer";
 
 // const LoginForm = () => {
 //   const [email, setEmail] = useState("");
@@ -74,6 +75,7 @@ const LoginForm = () => {
   };
 
   return (
+    <div>
     <div className="login-form">
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
@@ -109,8 +111,12 @@ const LoginForm = () => {
       <p className="signup-link">
         Don't have an account? <a href="/signup">Sign up</a>
       </p>
+      </div>
+      <Footer />
     </div>
+    
   );
+  
 };
 
 export default LoginForm;
