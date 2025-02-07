@@ -5,6 +5,7 @@ import Home1 from "./components/Home1";
 import Tenants from "./components/Tenants";
 import HomePage from "./components/HomePage";
 import LoginForm from "./components/LoginForm";
+import Contact from "./components/Contact";
 function App() {
   return (
     <Router>
@@ -13,10 +14,11 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage/> } />
         <Route path="/Tenants" element={<Tenants />} />
-        <Route
+        <Route path="/contact" element={<Contact />} />
+        {/* <Route
           path="/contact"
           element={<h1 style={{ color: "white" }}>Contact Page</h1>}
-        />
+        /> */}
         <Route
           path="/feedback"
           element={<h1 style={{ color: "white" }}>Feedback Page</h1>}

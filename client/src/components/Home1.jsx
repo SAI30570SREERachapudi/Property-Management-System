@@ -7,7 +7,7 @@ const Home1 = () => {
     <div>
       <nav className="BlackBackground">
         <ul className="NavList">
-          <img src="./../../public/images/home.png" width="20vh" alt="logo" />
+          <img src="./../../public/images/logo124.jpeg" width="200vh" alt="logo" />
           <li>
             <Link to="/">Home</Link>
           </li>
