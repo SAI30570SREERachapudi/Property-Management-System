@@ -1,28 +1,40 @@
-import React, { useState } from 'react';
-import { Card, CardContent, Typography, TextField, Button, Grid } from '@mui/material';
-import { useForm } from 'react-hook-form';
-import emailjs from 'emailjs-com';
-import Footer from './Footer';
+import React, { useState } from "react";
+import {
+  Card,
+  CardContent,
+  Typography,
+  TextField,
+  Button,
+  Grid,
+} from "@mui/material";
+import { useForm } from "react-hook-form";
+import emailjs from "emailjs-com";
+import Footer from "./Footer";
 
 const Contact = () => {
-  const { register, handleSubmit, formState: { errors }, reset } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm();
   const [messageSent, setMessageSent] = useState(null);
 
   const inputStyle = {
-    '& .MuiOutlinedInput-root': {
-      backgroundColor: '#333',
-      color: 'white',
-      border: '2px solid white',
+    "& .MuiOutlinedInput-root": {
+      backgroundColor: "#333",
+      color: "white",
+      border: "2px solid white",
     },
-    '& .MuiInputLabel-root': {
-      color: 'white',
+    "& .MuiInputLabel-root": {
+      color: "white",
     },
-    '& .MuiInput-underline:before': {
-      borderBottomColor: 'white',
+    "& .MuiInput-underline:before": {
+      borderBottomColor: "white",
     },
-    '&:hover .MuiOutlinedInput-root': {
-      borderColor: 'white',
-    }
+    "&:hover .MuiOutlinedInput-root": {
+      borderColor: "white",
+    },
   };
 
   const onSubmit = (data) => {
@@ -34,34 +46,53 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_kri1f7g', // Replace with your EmailJS Service ID
-        'template_azh7v6r', // Replace with your EmailJS Template ID
+        "service_kri1f7g", // Replace with your EmailJS Service ID
+        "template_azh7v6r", // Replace with your EmailJS Template ID
         emailParams,
-        'G1fSQfW9jpolzRZiM' // Replace with your EmailJS Public Key
+        "G1fSQfW9jpolzRZiM" // Replace with your EmailJS Public Key
       )
       .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
-        setMessageSent('Your message has been sent successfully!');
+        console.log("SUCCESS!", response.status, response.text);
+        setMessageSent("Your message has been sent successfully!");
         reset();
       })
       .catch((err) => {
-        console.error('FAILED...', err);
-        setMessageSent(`Failed to send the message. Error: ${err.text || 'Unknown error'}`);
+        console.error("FAILED...", err);
+        setMessageSent(
+          `Failed to send the message. Error: ${err.text || "Unknown error"}`
+        );
       });
   };
 
   return (
-    <div style={{ padding: '20px', backgroundColor: '#121212', color: 'white' }}>
+    <div
+      style={{
+        padding: "20px",
+        backgroundColor: "#121212",
+        color: "white",
+        marginBottom: "2rem !important", // Adding !important
+      }}
+    >
       <Typography variant="h4" align="center" gutterBottom>
         Contact Us
       </Typography>
       <Typography variant="body1" align="center" paragraph>
-        We are here to assist you! Feel free to reach out to us for any inquiries or feedback.
+        We are here to assist you! Feel free to reach out to us for any
+        inquiries or feedback.
       </Typography>
 
       <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12} sm={4}>
-          <Card variant="outlined" style={{ height: '100%', boxShadow: '0 3px 10px rgba(0,0,0,0.1)', borderRadius: '8px', backgroundColor: '#333', color: 'white' }}>
+          <Card
+            variant="outlined"
+            style={{
+              height: "100%",
+              boxShadow: "0 3px 10px rgba(0,0,0,0.1)",
+              borderRadius: "8px",
+              backgroundColor: "#333",
+              color: "white",
+            }}
+          >
             <CardContent>
               <Typography variant="h5">Address</Typography>
               <Typography variant="body2">
@@ -72,7 +103,16 @@ const Contact = () => {
         </Grid>
 
         <Grid item xs={12} sm={4}>
-          <Card variant="outlined" style={{ height: '100%', boxShadow: '0 3px 10px rgba(0,0,0,0.1)', borderRadius: '8px', backgroundColor: '#333', color: 'white' }}>
+          <Card
+            variant="outlined"
+            style={{
+              height: "100%",
+              boxShadow: "0 3px 10px rgba(0,0,0,0.1)",
+              borderRadius: "8px",
+              backgroundColor: "#333",
+              color: "white",
+            }}
+          >
             <CardContent>
               <Typography variant="h5">Phone</Typography>
               <Typography variant="body2"> +91-181-010-101 </Typography>
@@ -81,56 +121,79 @@ const Contact = () => {
         </Grid>
 
         <Grid item xs={12} sm={4}>
-          <Card variant="outlined" style={{ height: '100%', boxShadow: '0 3px 10px rgba(0,0,0,0.1)', borderRadius: '8px', backgroundColor: '#333', color: 'white' }}>
+          <Card
+            variant="outlined"
+            style={{
+              height: "100%",
+              boxShadow: "0 3px 10px rgba(0,0,0,0.1)",
+              borderRadius: "8px",
+              backgroundColor: "#333",
+              color: "white",
+            }}
+          >
             <CardContent>
               <Typography variant="h5">Emails</Typography>
-              <Typography variant="body2">2300030244@kluniversity.in</Typography>
-              <Typography variant="body2">2300030570@kluniversity.in</Typography>
-              <Typography variant="body2">2300032747@kluniversity.in</Typography>
+              <Typography variant="body2">
+                2300030244@kluniversity.in
+              </Typography>
+              <Typography variant="body2">
+                2300030570@kluniversity.in
+              </Typography>
+              <Typography variant="body2">
+                2300032747@kluniversity.in
+              </Typography>
             </CardContent>
           </Card>
         </Grid>
       </Grid>
 
-      <div style={{ marginTop: '20px' }}>
+      <div style={{ marginTop: "20px" }}>
         <Typography variant="h5">Send Message</Typography>
-        <form onSubmit={handleSubmit(onSubmit)} style={{ display: 'flex', flexDirection: 'column', maxWidth: '400px', margin: 'auto' }}>
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            maxWidth: "400px",
+            margin: "auto",
+          }}
+        >
           <TextField
             label="Full Name"
             variant="outlined"
             required
-            {...register('fullName', {
-              required: 'Full Name is required',
+            {...register("fullName", {
+              required: "Full Name is required",
               pattern: {
                 value: /^[A-Za-z\s]+$/,
-                message: 'Only alphabets are allowed',
+                message: "Only alphabets are allowed",
               },
             })}
             error={Boolean(errors.fullName)}
             helperText={errors.fullName?.message}
-            style={{ margin: '10px 0' }}
+            style={{ margin: "10px 0" }}
             color="warning"
-            InputLabelProps={{ style: { color: 'white' } }}
-            InputProps={{ style: { color: 'white' } }}
+            InputLabelProps={{ style: { color: "white" } }}
+            InputProps={{ style: { color: "white" } }}
             sx={inputStyle}
           />
           <TextField
             label="Email"
             variant="outlined"
             required
-            {...register('email', {
-              required: 'Email is required',
+            {...register("email", {
+              required: "Email is required",
               pattern: {
                 value: /^\S+@\S+\.\S+$/,
-                message: 'Enter a valid email',
+                message: "Enter a valid email",
               },
             })}
             error={Boolean(errors.email)}
             helperText={errors.email?.message}
-            style={{ margin: '10px 0' }}
+            style={{ margin: "10px 0" }}
             color="warning"
-            InputLabelProps={{ style: { color: 'white' } }}
-            InputProps={{ style: { color: 'white' } }}
+            InputLabelProps={{ style: { color: "white" } }}
+            InputProps={{ style: { color: "white" } }}
             sx={inputStyle}
           />
           <TextField
@@ -139,23 +202,23 @@ const Contact = () => {
             required
             multiline
             rows={4}
-            {...register('message', { required: 'Message is required' })}
+            {...register("message", { required: "Message is required" })}
             error={Boolean(errors.message)}
             helperText={errors.message?.message}
-            style={{ margin: '10px 0' }}
+            style={{ margin: "10px 0" }}
             color="warning"
-            InputLabelProps={{ style: { color: 'white' } }}
-            InputProps={{ style: { color: 'white' } }}
+            InputLabelProps={{ style: { color: "white" } }}
+            InputProps={{ style: { color: "white" } }}
             sx={inputStyle}
           />
           <Button
             variant="contained"
             sx={{
-              backgroundColor: 'black',
-              color: 'white',
-              border: '2px solid white',
-              '&:hover': {
-                backgroundColor: 'darkgray',
+              backgroundColor: "black",
+              color: "white",
+              border: "2px solid white",
+              "&:hover": {
+                backgroundColor: "darkgray",
               },
             }}
             type="submit"
@@ -170,16 +233,16 @@ const Contact = () => {
             variant="body1"
             align="center"
             style={{
-              marginTop: '20px',
-              color: messageSent.includes('successfully') ? 'green' : 'red',
-              fontWeight: 'bold',
+              marginTop: "20px",
+              color: messageSent.includes("successfully") ? "green" : "red",
+              fontWeight: "bold",
             }}
           >
             {messageSent}
           </Typography>
         )}
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
