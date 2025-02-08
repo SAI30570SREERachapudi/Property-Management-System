@@ -10,7 +10,8 @@
   text-align: center;
   animation: fadeInUp 0.8s ease-out; 
   margin: auto;
-  margin-top: 8rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
   height: 28rem;
   padding: 1rem;
 }
