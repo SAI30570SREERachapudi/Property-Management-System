@@ -2,19 +2,18 @@
 .login-form {
   background: #0a0a0a; /* Very dark background */
   border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6); 
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
   padding: 40px 50px;
   width: 100%;
   max-width: 400px;
-  color: #e0e0e0; 
+  color: #e0e0e0;
   text-align: center;
-  animation: fadeInUp 0.8s ease-out; 
+  animation: fadeInUp 0.8s ease-out;
   margin: auto;
   margin-top: 8rem;
   height: 28rem;
   padding: 1rem;
 }
-
 h2 {
   font-size: 32px;
   font-weight: 600;
@@ -26,13 +25,13 @@ h2 {
 .input-field {
   margin-bottom: 20px;
   text-align: left;
-  height: ;
+  height: 0;
 }
 
 .input-field label {
   font-size: 14px;
   color: #e0e0e0;
-  display: block; 
+  display: block;
 
   margin-left: 2rem;
 }
@@ -68,7 +67,7 @@ h2 {
   font-size: 20px;
   cursor: pointer;
   transition: color 0.3s ease;
-  z-index: 10; 
+  z-index: 10;
 }
 .login-button {
   background-color: #1abc9c;
