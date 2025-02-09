@@ -1,22 +1,7 @@
-/* General Styling */
-body {
-    background-color: #1a1a1a;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex; /* Apply flexbox to the body */
-    flex-direction: column; /* Allow stacking of content */
-    min-height: 100vh; /* Ensure the body takes up full height */
-  }
-  
-  main {
-    flex-grow: 1; /* Allow main content to grow and fill available space */
-  }
-  
+
   /* Footer Styling */
   .footer {
-    background-color: #111;
+    background-color: black;
     color: #ddd;
     text-align: center;
     border-top: 2px solid white;

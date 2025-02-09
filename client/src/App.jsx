@@ -6,6 +6,7 @@ import Tenants from "./components/Tenants";
 import HomePage from "./components/HomePage";
 import LoginForm from "./components/LoginForm";
 import Contact from "./components/Contact";
+import AboutUs from "./../src/components/AboutUs";
 function App() {
   return (
     <Router>
@@ -20,8 +21,8 @@ function App() {
           element={<h1 style={{ color: "white" }}>Contact Page</h1>}
         /> */}
         <Route
-          path="/about"
-          element={<h1 style={{ color: "white" }}>abput</h1>}
+          path="AboutUs"
+          element={<AboutUs/>}
         />
         <Route
           path="/login"

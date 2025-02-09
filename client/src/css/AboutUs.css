@@ -1,0 +1,65 @@
+.about-us-container {
+   
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    width: 20%;
+    height: 30vh;
+    padding: 3px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.3);
+  }
+  
+  .team-box h3 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #00acee;
+  }
+  
+  .social-links a:first-child:hover {
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .team-member {
+      width: 90%;
+      margin: 10px auto;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
