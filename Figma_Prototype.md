@@ -2,7 +2,8 @@ Figma design :: https://www.figma.com/design/ZSoOW7edBeIBV0jRipa8Ln/Property--Ma
 
 figma presentation :: https://www.figma.com/proto/ZSoOW7edBeIBV0jRipa8Ln/Property--Management-System?node-id=6-2&p=f&t=9ElVzgrVVsYRLkKR-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=6%3A2
 
-![image](https://github.com/user-attachments/assets/0bc9eeb5-3ad4-4684-a0ae-0619171dbe9e)
+![image](https://github.com/user-attachments/assets/3ee59e17-1fee-44ca-b7ab-25bb0742c34b)
+
 
 ![image](https://github.com/user-attachments/assets/6b072bcb-b01b-4807-aa25-99b6ce5f9424)
 ![image](https://github.com/user-attachments/assets/7db1ccea-282b-4b9f-a31e-9faf31962e2d)
