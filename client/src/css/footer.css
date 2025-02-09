@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* General Styling */
 body {
   background-color: #1a1a1a;
@@ -80,6 +81,20 @@ main {
   color: #aaa;
 }
 @media (max-width: 768px) {
+=======
+
+  /* Footer Styling */
+  .footer {
+    background-color: black;
+    color: #ddd;
+    text-align: center;
+    border-top: 2px solid white;
+    padding: 40px 20px;
+    margin-top: auto; /* Push the footer to the bottom */
+    margin-bottom: 0;
+  }
+  
+>>>>>>> 442939b3ccdfc11d2c6f316dabe873d8883a941d
   .footer-container {
     flex-direction: column;
     text-align: center;

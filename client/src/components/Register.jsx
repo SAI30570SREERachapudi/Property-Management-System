@@ -19,7 +19,7 @@ const LoginForm = () => {
   return (
     <div>
       <div className="login-form">
-        <h2>Login</h2>
+        <h2>Register</h2>
         <form onSubmit={handleSubmit}>
           <div className="input-field">
             <label htmlFor="email" id="email">
@@ -55,7 +55,7 @@ const LoginForm = () => {
           </button>
         </form>
         <p className="signup-link">
-          Don't have an account? <a href="/register">Sign up</a>
+          Already have an account? <a href="/login">Login Here</a>
         </p>
       </div>
       <Footer />
