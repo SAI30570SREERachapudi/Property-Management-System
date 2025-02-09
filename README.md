@@ -6,6 +6,4 @@ leases. It streamlines communication between property owners and tenants while i
 operational efficiency
 
 
-Dark white mode
-typing effect
 
