@@ -6,6 +6,7 @@ import Footer from './Footer'; // Assuming you have a footer component to import
 export default class Tenants extends Component {
   render() {
     return (
+    <div id='tenants-main'>
       <div className="tenant-page">
         <h1>Tenant Page</h1>
         <div className="rental-info">
@@ -20,8 +21,10 @@ export default class Tenants extends Component {
           </div>
         </div>
 
-        <Footer />
+      
       </div>
+        <Footer />
+        </div>
     );
   }
 }
