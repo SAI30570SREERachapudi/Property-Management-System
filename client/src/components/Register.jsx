@@ -1,4 +1,4 @@
-import "../css/LoginForm.css";
+import "../css/Register.css";
 import React, { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa"; // Importing the eye icons
 import Footer from "./Footer";
@@ -6,16 +6,13 @@ const LoginForm = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [passwordVisible, setPasswordVisible] = useState(false);
-
   const handleSubmit = (e) => {
     e.preventDefault();
     alert("Logged in successfully!");
   };
-
   const togglePasswordVisibility = () => {
     setPasswordVisible(!passwordVisible);
   };
-
   return (
     <div>
       <div className="login-form">
@@ -29,6 +26,32 @@ const LoginForm = () => {
               id="email"
               type="email"
               placeholder="Enter your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div className="input-field">
+            <label htmlFor="phone" id="email">
+              <h3>Phone</h3>
+            </label>
+            <input
+              id="email"
+              type="phone"
+              placeholder="Enter your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div className="input-field">
+            <label htmlFor="Country" id="email">
+              <h3>Country</h3>
+            </label>
+            <input
+              id="email"
+              type="text"
+              placeholder="Enter your Country"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
@@ -62,5 +85,4 @@ const LoginForm = () => {
     </div>
   );
 };
-
 export default LoginForm;
