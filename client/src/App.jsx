@@ -14,29 +14,16 @@ function App() {
       {" "}
       <Home1 />{" "}
       <Routes>
-        <Route path="/" element={<HomePage/> } />
+        <Route path="/" element={<HomePage />} />
         <Route path="/Tenants" element={<Tenants />} />
         <Route path="/contact" element={<Contact />} />
         {/* <Route
           path="/contact"
           element={<h1 style={{ color: "white" }}>Contact Page</h1>}
         /> */}
-        <Route
-          path="AboutUs"
-          element={<AboutUs/>}
-        />
-        <Route
-          path="/login"
-          element={<LoginForm/>}
-        />
-        <Route
-          path="/register"
-          element={<Register/>}
-        />
-        <Route
-          path="/register"
-          element={<h1 style={{ color: "white" }}>Register Page</h1>}
-        />
+        <Route path="AboutUs" element={<AboutUs />} />
+        <Route path="/login" element={<LoginForm />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
   );
