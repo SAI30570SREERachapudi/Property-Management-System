@@ -10,11 +10,10 @@
   animation: fadeInUp 0.8s ease-out;
   margin: auto;
   margin-top: 2rem;
-  margin-bottom: 30rem;
+  margin-bottom: 38rem;
   height: 35rem;
   padding: 1rem;
 }
-
 h2 {
   font-size: 32px;
   font-weight: 600;
@@ -22,20 +21,16 @@ h2 {
   color: #e0e0e0;
   text-transform: uppercase;
 }
-
 .input-field {
   margin-bottom: 20px;
   text-align: left;
 }
-
 .input-field label {
   font-size: 14px;
   color: #e0e0e0;
   display: block;
-
   margin-left: 2rem;
 }
-
 .input-field input {
   width: 80%;
   padding: 15px 18px;
@@ -82,31 +77,25 @@ h2 {
   margin-top: 1rem;
   margin-left: 15px;
 }
-
 .login-button:hover {
   background-color: #16a085;
 }
-
 .signup-link {
   margin-top: 1rem;
   font-size: 14px;
 }
-
 .signup-link a {
   text-decoration: none;
   color: #1abc9c;
   font-weight: 600;
 }
-
 .signup-link a:hover {
   text-decoration: underline;
 }
-
 .accept-terms {
   margin-left: -30rem;
   font-size: 14px;
 }
-/* Styling for the select dropdowns */
 .select-dropdown,
 #country,
 #city {
@@ -114,7 +103,7 @@ h2 {
   padding: 15px 18px;
   border: 2px solid #333;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 14px;
   color: #e0e0e0;
   background-color: #1e1e1e;
   transition: all 0.3s ease;

@@ -204,10 +204,7 @@ const Register = () => {
               required
             />
           </div>
-
-          <div className="input-field">
-            <label htmlFor="terms">
-              <input
+          <input
                 type="checkbox"
                 id="terms"
                 checked={termsAccepted}
@@ -215,9 +212,6 @@ const Register = () => {
                 required
               />
               I agree to the Terms and Conditions
-            </label>
-          </div>
-
           <button
             type="submit"
             className="login-button"
