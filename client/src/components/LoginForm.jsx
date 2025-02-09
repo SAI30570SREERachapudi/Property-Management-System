@@ -1,7 +1,8 @@
-import "../css/LoginForm.css";
+
 import React, { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa"; // Importing the eye icons
 import Footer from "./Footer";
+import "../css/LoginForm.css";
 const LoginForm = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

@@ -10,7 +10,7 @@
        },
        {
          "name": "India",
-         "cities": ["Delhi", "Mumbai", "Bangalore", "Chennai", "Kolkata"]
+         "cities": ["Delhi", "Mumbai", "Bangalore", "Chennai", "Kolkata","Pune"]
        },
        {
          "name": "United Kingdom",
