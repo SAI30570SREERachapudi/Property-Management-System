@@ -18,7 +18,7 @@ export class AboutUs extends Component {
                 <a href="https://github.com/gyasaswini10" target="_blank" rel="noopener noreferrer">
                   <FaGithub size={30} />
                 </a>
-                <a href="https://www.linkedin.com/in/yasaswini2005/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/yasaswini2005" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin size={30} />
                 </a>
               </div>
