@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa"; // Importing the eye icons
 import Footer from "./Footer";
@@ -19,7 +18,7 @@ const LoginForm = () => {
 
   return (
     <div>
-      <div className="login-form">
+      <div className="custom-login-container">
         <h2>Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="input-field">
