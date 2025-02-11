@@ -5,6 +5,9 @@ and tenant information. Users can post property details, track rental payments, 
 leases. It streamlines communication between property owners and tenants while improving 
 operational efficiency
 
+
+
+
 Modules:
 1. User Management
 Admin Dashboard – A central panel for managing properties, tenants, and landlords.
