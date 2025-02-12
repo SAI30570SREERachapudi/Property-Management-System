@@ -2,13 +2,12 @@ import "../css/Register.css";
 import React, { useState, useEffect } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import Footer from "./Footer";
-import countriesAndCitiesData from "../json/countriesAndCities.json"; // Assuming this JSON file exists
-
+import countriesAndCitiesData from "../json/countriesAndCities.json";
 const Register = () => {
-  const [fullname, setFullname] = useState(""); // New state for Full Name
+  const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState(""); // New state for Phone number
-  const [selectedCountry, setSelectedCountry] = useState(""); // Country selection state
+  const [phone, setPhone] = useState("");
+  const [selectedCountry, setSelectedCountry] = useState("");
   const [selectedCity, setSelectedCity] = useState(""); // City selection state
   const [address, setAddress] = useState(""); // New state for Address
   const [state, setState] = useState(""); // New state for State
@@ -72,7 +71,6 @@ const Register = () => {
               required
             />
           </div>
-
           <div className="input-field">
             <label htmlFor="email">
               <h3>Email</h3>
@@ -86,7 +84,6 @@ const Register = () => {
               required
             />
           </div>
-
           <div className="input-field">
             <label htmlFor="phone">
               <h3>Phone</h3>
@@ -100,7 +97,6 @@ const Register = () => {
               required
             />
           </div>
-
           <div className="input-field">
             <label htmlFor="country">
               <h3>Country</h3>
@@ -119,7 +115,6 @@ const Register = () => {
               ))}
             </select>
           </div>
-
           <div className="input-field">
             <label htmlFor="city">
               <h3>City</h3>
@@ -139,7 +134,6 @@ const Register = () => {
               ))}
             </select>
           </div>
-
           <div className="input-field">
             <label htmlFor="address">
               <h3>Address</h3>
@@ -153,7 +147,6 @@ const Register = () => {
               required
             />
           </div>
-
           <div className="input-field">
             <label htmlFor="state">
               <h3>State</h3>
@@ -167,7 +160,6 @@ const Register = () => {
               required
             />
           </div>
-
           <div className="input-field password-field">
             <label htmlFor="password">
               <h3>Password</h3>
@@ -184,7 +176,6 @@ const Register = () => {
               required
             />
           </div>
-
           <div className="input-field password-field">
             <label htmlFor="confirmPassword">
               <h3>Confirm Password</h3>
@@ -205,13 +196,13 @@ const Register = () => {
             />
           </div>
           <input
-                type="checkbox"
-                id="terms"
-                checked={termsAccepted}
-                onChange={() => setTermsAccepted(!termsAccepted)}
-                required
-              />
-              I agree to the Terms and Conditions
+            type="checkbox"
+            id="terms"
+            checked={termsAccepted}
+            onChange={() => setTermsAccepted(!termsAccepted)}
+            required
+          />
+          I agree to the Terms and Conditions
           <button
             type="submit"
             className="login-button"
