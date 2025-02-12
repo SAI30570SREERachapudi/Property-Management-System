@@ -8,6 +8,7 @@ import LoginForm from "./components/LoginForm";
 import Contact from "./components/Contact";
 import AboutUs from "./../src/components/AboutUs";
 import Register from "./components/Register";
+import Rentals from "./components/Tenants";
 function App() {
   return (
     <Router>
@@ -15,7 +16,7 @@ function App() {
       <Home1 />{" "}
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/Tenants" element={<Tenants />} />
+        <Route path="/Rentals" element={<Rentals />} />
         <Route path="/contact" element={<Contact />} />
         {/* <Route
           path="/contact"
