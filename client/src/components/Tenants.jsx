@@ -8,7 +8,7 @@ export default class Tenants extends Component {
     return (
     <div id='tenants-main'>
       <div className="tenant-page">
-        <h1>Tenant Page</h1>
+        <h1>Tenant Managment Page</h1>
         <div className="rental-info">
           <h2>Manage Your Rental</h2>
           <p>Here's a quick overview of your rental details:</p>

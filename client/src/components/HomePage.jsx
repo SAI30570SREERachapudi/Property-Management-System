@@ -35,7 +35,7 @@ export default function HomePage() {
     <div>
       <div className="HomePage1" style={{ display: "flex", padding: "20px" }}>
         <div className="text">
-          <h5 style={{ textAlign: "left", color: "white" }}>
+          <h5 style={{ textAlign: "left", color: "white", fontSize: "17px" }}>
             Whether you're a property owner, a tenant, or looking for expert
             advice, we're here to help. Our team is dedicated to creating the
             best experience for both property owners and residents.
