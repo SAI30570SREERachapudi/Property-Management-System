@@ -1,6 +1,7 @@
 package package1.repository;
 
 import package1.model.User;
+
 import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
