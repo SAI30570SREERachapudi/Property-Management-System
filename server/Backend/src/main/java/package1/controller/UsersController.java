@@ -1,6 +1,7 @@
 package package1.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Autowired
+;
 import org.springframework.web.bind.annotation.*;
 
 import package1.model.User;
