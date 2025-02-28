@@ -160,15 +160,15 @@ const Register = () => {
               required
             />
           </div>
-          <div className="input-field password-field">
-            <label htmlFor="password"  >
+          <div className="input-field">
+            <label htmlFor=""  >
               <h3>Password</h3>
             </label>
             <span className="eye-icon" onClick={togglePasswordVisibility}>
               {passwordVisible ? <FaEyeSlash /> : <FaEye />}
             </span>
             <input
-              id="password"
+              id=""
               type={passwordVisible ? "text" : "password"}
               placeholder="Enter your password"
               value={password}
@@ -176,7 +176,7 @@ const Register = () => {
               required
             />
           </div>
-          <div className="input-field password-field">
+          <div className="input-field">
             <label htmlFor="confirmPassword">
               <h3>Confirm Password</h3>
             </label>
