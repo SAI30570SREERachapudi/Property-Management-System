@@ -19,11 +19,11 @@ const LoginForm = () => {
   return (
     <div>
       <div className="custom-login-container">
-        <h2>Login</h2>
+        <h2 id="one">Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="input-field">
             <label htmlFor="email" id="email">
-              <h3>Email</h3>
+              <h3 id="one"> Email</h3>
             </label>
             <input
               id="email"
@@ -36,7 +36,7 @@ const LoginForm = () => {
           </div>
           <div className="input-field password-field">
             <label htmlFor="password" id="password">
-              <h3>Password</h3>
+              <h3 id="one">Password</h3>
             </label>
             <span className="eye-icon" onClick={togglePasswordVisibility}>
               {passwordVisible ? <FaEyeSlash /> : <FaEye />}

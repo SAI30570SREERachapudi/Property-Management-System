@@ -22,7 +22,7 @@ h1 {
   width: 20%;
   height: 30vh;
   padding: 3px;
-  background-color: #82cc7f; /* Soft Green */
+  background-color: #95B8D1;/* Soft Green */
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 128, 0, 0.5); /* Green shadow */
 }
@@ -44,7 +44,7 @@ h1 {
 }
 
 .social-links a:hover {
-  color: #005700; /* Darker green for hover effect */
+  color: #95B8D1; /* Darker green for hover effect */
 }
 
 @media (max-width: 768px) {

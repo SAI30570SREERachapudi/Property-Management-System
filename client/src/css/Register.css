@@ -1,18 +1,20 @@
 .login-form {
-  background: #0a0a0a;
+  background: white;
   border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 8px 24px #83bde7;
   padding: 40px 50px;
   width: 100%;
   max-width: 500px;
-  color: #e0e0e0;
+  color: black;
   text-align: center;
   animation: fadeInUp 0.8s ease-out;
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 38rem;
-  height: 35rem;
+  height: 75rem;
   padding: 1rem;
+  border: 2px solid black;
+
 }
 h2 {
   font-size: 32px;
@@ -30,6 +32,7 @@ h2 {
   color: #e0e0e0;
   display: block;
   margin-left: 2rem;
+  color: black;
 }
 .input-field input {
   width: 80%;
@@ -42,30 +45,43 @@ h2 {
   transition: all 0.3s ease;
   height: 1rem;
   margin-left: 2rem;
+    color: black;
+  background-color: white;
+  
 }
 
 .input-field input:focus {
-  border-color: #1abc9c;
+ 
   outline: none;
-  box-shadow: 0 0 8px rgba(26, 188, 156, 0.5);
+  box-shadow: 0 0 8px #83bde7;
+  
 }
 
 .password-field {
   position: relative;
+  
+  
 }
 .eye-icon {
   position: absolute;
   top: 73%;
   right: 40px;
+  
   transform: translateY(-50%);
-  color: #1abc9c;
+  color: #83bde7;
   font-size: 20px;
   cursor: pointer;
   transition: color 0.3s ease;
   z-index: 10;
+    color: black;
+  background-color: white;
+  color: black;
+background-color: white;
+
+  
 }
 .login-button {
-  background-color: #1abc9c;
+  background-color: #83bde7;
   border: none;
   border-radius: 8px;
   color: #fff;
@@ -76,17 +92,21 @@ h2 {
   width: 90%;
   margin-top: 1rem;
   margin-left: 15px;
+  
+
 }
 .login-button:hover {
-  background-color: #16a085;
+  background-color: #83bde7;
+  
 }
 .signup-link {
   margin-top: 1rem;
   font-size: 14px;
+  
 }
 .signup-link a {
   text-decoration: none;
-  color: #1abc9c;
+  color: #83bde7;
   font-weight: 600;
 }
 .signup-link a:hover {
@@ -104,15 +124,16 @@ h2 {
   border: 2px solid #333;
   border-radius: 8px;
   font-size: 14px;
-  color: #e0e0e0;
-  background-color: #1e1e1e;
+  color: black;
+  background-color: white;
+
   transition: all 0.3s ease;
   height: 3rem;
   margin-left: 2rem;
 }
 
 .select-dropdown:focus {
-  border-color: #007bff;
+  border-color:#83bde7;
   outline: none;
 }
 

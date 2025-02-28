@@ -161,7 +161,7 @@ const Register = () => {
             />
           </div>
           <div className="input-field password-field">
-            <label htmlFor="password">
+            <label htmlFor="password"  >
               <h3>Password</h3>
             </label>
             <span className="eye-icon" onClick={togglePasswordVisibility}>
