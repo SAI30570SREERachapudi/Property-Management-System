@@ -216,7 +216,9 @@ const Register = () => {
           Already have an account? <a href="/login">Login Here</a>
         </p>
       </div>
-      <Footer />
+  <Footer />
+
+
     </div>
   );
 };

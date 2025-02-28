@@ -7,6 +7,7 @@ import Footer from './Footer';
 export class AboutUs extends Component {
   render() {
     return (
+      <div>
       <div className="about-us-container">
         <h1>About Us</h1>
 
@@ -52,9 +53,13 @@ export class AboutUs extends Component {
               </div>
             </div>
           </div>
+          
         </div>
-        <Footer/>
+     
       </div>
+      <Footer/>
+      </div>
+      
     );
   }
 }

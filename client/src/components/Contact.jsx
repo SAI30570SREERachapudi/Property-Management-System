@@ -67,7 +67,8 @@ const Contact = () => {
   return (
     <div
       style={{
-        padding: "20px",
+        marginTop: "2rem",
+        padding: "10px",
         backgroundColor: "white",
         color: "black",
         marginBottom: "2rem !important", // Adding !important

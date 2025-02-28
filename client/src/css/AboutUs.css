@@ -2,12 +2,14 @@
   background-color: white;
   color: black;
   text-align: center;
-  padding: 20px;
+  padding: -50px;
+  margin-top: 10px;
 }
 
 h1 {
   font-size: 2rem;
   margin-bottom: 40px;
+  color:black;
 }
 
 .team-members {

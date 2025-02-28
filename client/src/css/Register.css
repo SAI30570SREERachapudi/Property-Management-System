@@ -10,8 +10,8 @@
   animation: fadeInUp 0.8s ease-out;
   margin: auto;
   margin-top: 2rem;
-  margin-bottom: 38rem;
-  height: 75rem;
+
+  height: 73rem;
   padding: 1rem;
   border: 2px solid black;
 
@@ -34,7 +34,7 @@ h2 {
   margin-left: 2rem;
   color: black;
 }
-.input-field input {
+.input-field input,.input-field select {
   width: 80%;
   padding: 15px 18px;
   border: 2px solid #333;
