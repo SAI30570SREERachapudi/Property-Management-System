@@ -15,7 +15,7 @@ export class AboutUs extends Component {
           <div className="team-member">
             <div className="team-box">
               <h3>Gurivi Reddy Yasaswini</h3>
-              <div className="social-links">
+              <div className="social-links" id='social1'>
                 <a href="https://github.com/gyasaswini10" target="_blank" rel="noopener noreferrer">
                   <FaGithub size={30} />
                 </a>

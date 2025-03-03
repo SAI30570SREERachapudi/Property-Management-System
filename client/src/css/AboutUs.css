@@ -8,7 +8,7 @@
 
 h1 {
   font-size: 2rem;
-  margin-bottom: 40px;
+  margin-bottom:40px;
   color:black;
 }
 
@@ -24,31 +24,22 @@ h1 {
   width: 20%;
   height: 30vh;
   padding: 3px;
+  color: black;
   background-color: #95B8D1;/* Soft Green */
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 128, 0, 0.5); /* Green shadow */
+  box-shadow: 0 2px 8px rgba(169, 255, 169, 0.5); /* Green shadow */
 }
 
 .team-box h3 {
   font-size: 1rem;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
 }
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.social-links a {
+ 
+ 
+.social-links a{
   color: black;
-  text-decoration: none;
+  background-color: none;
 }
-
-.social-links a:hover {
-  color: #95B8D1; /* Darker green for hover effect */
-}
-
 @media (max-width: 768px) {
   .team-member {
     width: 90%;
@@ -58,4 +49,33 @@ h1 {
   h1 {
     font-size: 1.5rem;
   }
+}
+
+.team-member{
+  display: flex;
+  
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:90px  auto;
+
+  height: fit-content;
+  width: 90vh;
+  width: 90vh;
+}
+.team-members{
+  overflow: hidden;
+ 
+}
+.team-member{
+  overflow: hidden;
+}
+#social1 a{
+ color: black;
+ border-radius: 3px;
+}
+#social1 a:hover{
+ background-color: black;
+ color: white;
+
 }

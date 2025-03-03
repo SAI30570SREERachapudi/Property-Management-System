@@ -11,7 +11,7 @@ body {
   padding: 10px 20px;
   overflow: hidden;
   background-color: white;
-  box-shadow: black 0px 6px 6px -2px, black 0px 3px 3px -3px;
+  box-shadow: white 0px 6px 6px -2px,white  0px 3px 3px -3px;
 }
 
 .NavList {
@@ -36,8 +36,9 @@ body {
 }
 
 .NavList a:hover {
-  color: white;
-  box-shadow: black 10px 20px 10px 20px inset;
+  background-color:  #95B8D1;;
+  color: black;
+  box-shadow: white 10px 20px 10px 20px inset;
   transform: rotateY(180deg);
 }
 
@@ -49,6 +50,10 @@ body {
   background-color: white;
   padding: 10px 20px;
   box-shadow: black 0px 6px 6px -2px, black 0px 3px 3px -3px;
+}
+.NavList a{
+background-color: white;
+color: black;
 }
 
 /* About Us Section */
