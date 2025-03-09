@@ -33,9 +33,44 @@ export default function HomePage() {
 
   return (
     <div>
-      <div className="HomePage1" style={{ display: "flex", padding: "20px" }}>
+            <div
+  className="video-container"
+  style={{
+     // Display as a flex container
+    position: "", // Ensure no gaps around the video
+    top: 0,               // Remove any top gap
+    left: 0,              // Remove any left gap
+    right: 0,             // Remove any right gap
+    bottom: 0,            // Ensure the container fills the whole screen
+    width: "100%",        // Full width of the viewport
+    height: "100vh",      // Full height of the viewport
+    overflow: "hidden",   // Hide any overflow
+    zIndex: -1,           // Send the video behind other content
+  }}
+>
+
+ 
+  <video
+    src="./../../public/home page.mp4" // Update with the actual path to your video
+    autoPlay
+    loop
+    muted
+    style={{
+      objectFit: "cover", // Ensures the video covers the entire area without distortion
+      width: "100%",      // Full width
+      height: "100%",     // Full height
+    }}
+  />
+</div>
+      <div className="HomePage1" style={{ display: "flex"}}>
+  
+
+
+
+
+      <br></br>
         <div className="text">
-          <h5 style={{ textAlign: "left", color: "white", fontSize: "17px" }}>
+          <h5 style={{ textAlign: "left", color: "Black", fontSize: "17px" }}>
             Whether you're a property owner, a tenant, or looking for expert
             advice, we're here to help. Our team is dedicated to creating the
             best experience for both property owners and residents.

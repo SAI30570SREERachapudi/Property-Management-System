@@ -22,9 +22,9 @@ const Contact = () => {
 
   const inputStyle = {
     "& .MuiOutlinedInput-root": {
-      backgroundColor: "#333",
-      color: "white",
-      border: "2px solid white",
+      backgroundColor: "white",
+      color: "black",
+      border: "2px solid black",
     },
     "& .MuiInputLabel-root": {
       color: "white",
@@ -67,9 +67,10 @@ const Contact = () => {
   return (
     <div
       style={{
-        padding: "20px",
-        backgroundColor: "#121212",
-        color: "white",
+        marginTop: "2rem",
+        padding: "10px",
+        backgroundColor: "white",
+        color: "black",
         marginBottom: "2rem !important", // Adding !important
       }}
     >
@@ -87,10 +88,10 @@ const Contact = () => {
             variant="outlined"
             style={{
               height: "100%",
-              boxShadow: "0 3px 10px rgba(0,0,0,0.1)",
+              boxShadow: "0 3px 10px rgba(255, 255, 255, 0.1)",
               borderRadius: "8px",
-              backgroundColor: "#333",
-              color: "white",
+              backgroundColor: "white ",
+              color: "black",
             }}
           >
             <CardContent>
@@ -109,8 +110,9 @@ const Contact = () => {
               height: "100%",
               boxShadow: "0 3px 10px rgba(0,0,0,0.1)",
               borderRadius: "8px",
-              backgroundColor: "#333",
-              color: "white",
+       
+              backgroundColor: "white ",
+              color: "black",
             }}
           >
             <CardContent>
@@ -127,8 +129,9 @@ const Contact = () => {
               height: "100%",
               boxShadow: "0 3px 10px rgba(0,0,0,0.1)",
               borderRadius: "8px",
-              backgroundColor: "#333",
-              color: "white",
+            
+              backgroundColor: "white ",
+              color: "black",
             }}
           >
             <CardContent>
@@ -173,7 +176,7 @@ const Contact = () => {
             helperText={errors.fullName?.message}
             style={{ margin: "10px 0" }}
             color="warning"
-            InputLabelProps={{ style: { color: "white" } }}
+            InputLabelProps={{ style: { color: "black" } }}
             InputProps={{ style: { color: "white" } }}
             sx={inputStyle}
           />
@@ -192,8 +195,8 @@ const Contact = () => {
             helperText={errors.email?.message}
             style={{ margin: "10px 0" }}
             color="warning"
-            InputLabelProps={{ style: { color: "white" } }}
-            InputProps={{ style: { color: "white" } }}
+            InputLabelProps={{ style: { color: "black" } }}
+            InputProps={{ style: { color: "black" } }}
             sx={inputStyle}
           />
           <TextField
@@ -207,15 +210,15 @@ const Contact = () => {
             helperText={errors.message?.message}
             style={{ margin: "10px 0" }}
             color="warning"
-            InputLabelProps={{ style: { color: "white" } }}
-            InputProps={{ style: { color: "white" } }}
+            InputLabelProps={{ style: { color: "black" } }}
+            InputProps={{ style: { color: "black" } }}
             sx={inputStyle}
           />
           <Button
             variant="contained"
             sx={{
-              backgroundColor: "black",
-              color: "white",
+              backgroundColor: "white",
+              color: "black",
               border: "2px solid white",
               "&:hover": {
                 backgroundColor: "darkgray",
