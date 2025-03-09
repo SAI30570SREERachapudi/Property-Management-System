@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import AboutUs from "./../src/components/AboutUs";
 import Register from "./components/Register";
 import Rentals from "./components/Tenants";
+import PropertyManager from "./components/PropertyManager";
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/Rentals" element={<Rentals />} />
+        <Route path="/PropertyManager" element={<PropertyManager />} />
         <Route path="/contact" element={<Contact />} />
         {/* <Route
           path="/contact"

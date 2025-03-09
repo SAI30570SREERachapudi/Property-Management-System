@@ -15,6 +15,9 @@ const Home1 = () => {
             <Link to="/Rentals">Rentals</Link>
           </li>
           <li>
+            <Link to="/PropertyManager">Property Manager</Link>
+          </li>
+          <li>
             <Link to="/contact">Contact</Link>
           </li>
           <li>
