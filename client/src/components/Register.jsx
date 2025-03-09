@@ -1,5 +1,5 @@
 import "../css/Register.css";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import Footer from "./Footer";
 import countriesAndCitiesData from "../json/countriesAndCities.json";
@@ -161,7 +161,7 @@ const Register = () => {
             />
           </div>
           <div className="input-field password-field">
-            <label htmlFor="password"  >
+            <label htmlFor="password">
               <h3>Password</h3>
             </label>
             <span className="eye-icon" onClick={togglePasswordVisibility}>
@@ -211,14 +211,11 @@ const Register = () => {
             Register
           </button>
         </form>
-
         <p className="signup-link">
           Already have an account? <a href="/login">Login Here</a>
         </p>
       </div>
-  <Footer />
-
-
+      <Footer />
     </div>
   );
 };
