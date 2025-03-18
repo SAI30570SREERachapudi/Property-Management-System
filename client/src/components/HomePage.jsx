@@ -51,7 +51,7 @@ export default function HomePage() {
 
  
   <video
-    src="./../../public/home page.mp4" // Update with the actual path to your video
+    src="./../../public/images/homepage.mp4"
     autoPlay
     loop
     muted
