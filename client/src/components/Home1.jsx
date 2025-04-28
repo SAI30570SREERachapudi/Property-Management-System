@@ -6,7 +6,7 @@ import { BASEURL, callApi, setSession } from './Api.js';
 
 import "./Home12.css";
 import "./../css/Home1.css";
-
+import HomePage from "./HomePage";
 export class Home1 extends Component {
   constructor()
   {
@@ -235,9 +235,7 @@ export class Home1 extends Component {
 
 
         <div class="header">
-          <div class="left" >
-          
-          </div>
+        
           <nav className="BlackBackground">
           <ul className="NavList">
             <li id="image-logo">
@@ -273,17 +271,9 @@ export class Home1 extends Component {
           
         </div>
         <div class="container">
-        
-          <div className='text2'>Your job search ends here</div>
-          <div className='text3'>Discover career opportunites</div>
-          <div className='searchBar'>
-            <input type='text' className='searchText' placeholder='Search by skill'/>
-            <input type='text' className='searchLocation' placeholder='Job Locations'/>
-            <button className='searchButton'>Search Job</button>
-          </div>
-          <div className="right-container">
-            <img src="./images/OIP.jpeg" alt="cover-image" />
-          </div>
+
+<HomePage/>
+          
         </div>
 
       

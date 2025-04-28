@@ -12,11 +12,13 @@ import Rentals from "./components/Tenants";
 import PropertyManager from "./components/PropertyManager";
 function App() {
   return (
+    
     <Router>
       {" "}
       <Home1 />{" "}
       <Routes>
-        <Route path="/" element={<HomePage />} />
+{/*         
+        <Route path="/" element={<HomePage />} /> */}
         <Route path="/Rentals" element={<Rentals />} />
         <Route path="/PropertyManager" element={<PropertyManager />} />
         <Route path="/contact" element={<Contact />} />

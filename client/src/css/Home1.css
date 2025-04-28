@@ -16,6 +16,7 @@ body {
 
 .NavList {
   list-style: none;
+
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -47,8 +48,10 @@ body {
 }
 
 .BlackBackground {
+  
   background-color: white;
-  padding: 10px 20px;
+width: 100%;
+
   box-shadow: black 0px 6px 6px -2px, black 0px 3px 3px -3px;
 }
 .NavList a{
