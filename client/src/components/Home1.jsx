@@ -3,7 +3,7 @@ import React, { Component } from "react";
 
 import { Link } from "react-router-dom";
 import { BASEURL, callApi, setSession } from './Api.js';
-
+import { Routes, Route } from "react-router-dom"; 
 import "./Home12.css";
 import "./../css/Home1.css";
 import HomePage from "./HomePage";
@@ -271,9 +271,10 @@ export class Home1 extends Component {
           
         </div>
         <div class="container">
-
-<HomePage/>
+        <Routes>
+            <Route path="/" element={<HomePage />} />
           
+          </Routes>
         </div>
 
       
