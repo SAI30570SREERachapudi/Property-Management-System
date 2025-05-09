@@ -10,22 +10,27 @@ import AboutUs from "./../src/components/AboutUs";
 // import Register from "./components/Register";
 import Rentals from "./components/Tenants";
 import PropertyManager from "./components/PropertyManager";
+import Dashboard from "./components/Dashboard";
+import ChatbotPage from "./components/ChatbotPage";
 function App() {
   return (
-    
     <Router>
       {" "}
       <Home1 />{" "}
       <Routes>
-{/*         
-        <Route path="/" element={<HomePage />} /> */}
+        <Route path="/" element={<HomePage />} />
         <Route path="/Rentals" element={<Rentals />} />
         <Route path="/PropertyManager" element={<PropertyManager />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         {/* <Route
+              <li><Link to="/dashboard">Dashboard</Link></li>
+
           path="/contact"
           element={<h1 style={{ color: "white" }}>Contact Page</h1>}
         /> */}
+        
+        <Route path="/chatbot" element={<ChatbotPage />} />
         <Route path="AboutUs" element={<AboutUs />} />
         {/* <Route path="/login" element={<LoginForm />} />
         <Route path="/register" element={<Register />} /> */}

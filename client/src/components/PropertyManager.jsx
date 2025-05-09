@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./../css/PropertyManager.css"; // Import CSS file
+import "./../css/PropertyManager.css"; 
 import Footer from "./Footer";
 
 const PropertyManager = () => {

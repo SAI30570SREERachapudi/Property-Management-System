@@ -100,24 +100,24 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div class="WhyOurCompany">
+      <div className="WhyOurCompany">
         <h2>Why Our Company?</h2>
-        <div class="CompanyInfo">
-          <div class="InfoItem">
+        <div className="CompanyInfo">
+          <div className="InfoItem">
             <h3>Qualified Property Dealers</h3>
             <p>
               Our network includes qualified property dealers & registered
               members from CREDAI and APREDA.
             </p>
           </div>
-          <div class="InfoItem">
+          <div className="InfoItem">
             <h3>Buy, Rent and Lease Genuine Properties</h3>
             <p>
               We offer a wide range of genuine properties for buying, renting,
               and leasing.
             </p>
           </div>
-          <div class="InfoItem">
+          <div className="InfoItem">
             <h3>Simply Register to List Your Properties</h3>
             <p>
               Register with us to easily list your properties and reach a wider
