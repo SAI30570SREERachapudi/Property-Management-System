@@ -30,7 +30,3 @@ Modules:
 5. Notifications & Alerts
    Email & SMS Alerts – Notify users about rent due, lease expiry, maintenance updates, etc.
    Push Notifications – Send instant alerts for important updates.
-
-6. Document Verification
-   Documents are verified by the tenants and landlords for security reasons.
-   Decreases the possibility of scam
